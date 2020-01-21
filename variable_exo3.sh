@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Change this code
+
 BIRTHDATE="Jan 1, 2000"
 Presents=10
 BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 
 
-# Testing code - do not change it
+
 
 if [ "$BIRTHDATE" == "Jan 1, 2000" ] ; then
     echo "BIRTHDATE is correct, it is $BIRTHDATE"
